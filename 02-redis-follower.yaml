@@ -32,7 +32,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: guestbook
+  namespace: your-namespace
   name: redis-follower
   labels:
     app: redis
