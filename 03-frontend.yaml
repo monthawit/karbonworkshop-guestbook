@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: guestbook
+  namespace: your-namespace
   name: frontend
 spec:
   replicas: 3
